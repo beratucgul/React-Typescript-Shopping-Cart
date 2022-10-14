@@ -4,7 +4,7 @@ import Router from "../router/Router";
 
 export default function ContainerComponent() {
   return (
-    <Container>
+    <Container className="mb-4">
       <Router />
     </Container>
   );

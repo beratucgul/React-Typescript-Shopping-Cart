@@ -1,9 +1,13 @@
-import React from "react";
 import ContainerComponent from "./components/ContainerComponent";
-import Router from "./router/Router";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <ContainerComponent />;
+  return (
+    <>
+      <Navbar />
+      <ContainerComponent />;
+    </>
+  );
 }
 
 export default App;
